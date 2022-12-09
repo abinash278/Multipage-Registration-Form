@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333 ;
+}
+
+.form-1,.form-2,.form-3{
+    padding: 20px;
+    background-color: lightblue;
+}
+.form-1 h1,.form-2 h1,.form-3 h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #333;
+
+}
+label{
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(10, 10, 65);
+    font-family: 'calibri','helvetica','sans-serif' ;
+}
+#nam1{
+    width: 49vh;
+    margin-left: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#nam2{
+    width: 49.5vh;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#Country{
+    width: 49vh;
+    margin-left: 6px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#dob{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#email{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#fn1{
+    width: 49vh;
+    margin-left: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#fn2{
+    width: 49.5vh;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#mn1{
+    width: 49vh;
+    margin-left: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#mn2{
+    width: 49.5vh;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#nationality{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#homadd{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#city{
+    width: 49vh;
+    margin-left: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#telhome{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#telmob{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#hsc{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#schsc{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#ssc{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#scssc{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#curins{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#ovperc{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 80px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: rgb(31, 19, 65);
+    background-color: white;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: white;
+   background-color: black;
+}
+#Board{
+    width: 100vh;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}

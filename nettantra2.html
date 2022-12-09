@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="nettantra.css">
+</head>
+<body>
+    <form class="form-2">
+        <center><h1>Registration Form</h1></center>
+    <div>
+        <label>HSC Institution Name</label><br>
+        <input type="text" id="hsc" required><br>
+    </div>
+    <div>
+        <select id="Board">
+            <option value="Board">Select HSC Board</option>
+                <option value="CBSE">CBSE</option>
+                <option value="ICSE">ICSE</option>
+                <option value="State Board">State Board</option><br>
+        </select><br>
+    </div>
+    <div>
+        <label>Score in HSC</label><br>
+        <input type="number" placeholder="In Percentage" id="schsc" required><br>
+    </div>
+    <div>
+        <label>SSC Institution Name</label><br>
+        <input type="text" id="ssc" required><br>
+    </div>
+    <div>
+        <select id="Board">
+            <option value="Board">Select SSC Board</option>
+                <option value="CBSE">CBSE</option>
+                <option value="ICSE">ICSE</option>
+                <option value="State Board">State Board</option><br>
+        </select><br>
+    </div>
+    <div>
+        <label>Score in SSC</label><br>
+        <input type="number" placeholder="In Percentage" id="scssc" required><br>
+    </div>
+    <div> 
+        <label>Currently Pursuing</label><br>
+        <input type="radio" name="currently pursuing" value="Yes" id="curpury" required>Yes<br>
+        <input type="radio" name="currently pursuing" value="No" id="curpurn">No<br>
+    </div>
+    <div>
+        <label>Current Educational Institution Name</label><br>
+        <input type="text" id="curins" required><br>
+    </div>
+    <div>
+        <label>Overall Percentage</label><br>
+        <input type="number" placeholder="In Percentage" id="ovperc" required><br>
+    </div>
+    <div> 
+        <label>Current Backlogs if any</label><br>
+        <input type="radio" name="current backlogs if any" value="Yes" id="curbacky" required>Yes<br>
+        <input type="radio" name="current backlogs if any" value="No" id="curbackn">No<br> 
+    </div>
+    <div>
+        <button type="reset" class="btn"><a href="nettantra1.html">PRIVIOUS</a></button><button type="submit" onclick="adddata1()"class="btn"><a href="nettantra3.html">NEXT</a>></button><br>
+    </div>         
+    </form>
+    <script src="nettantra.js"></script>
+</body>
+</html>
